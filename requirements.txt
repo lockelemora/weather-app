@@ -1,0 +1,17 @@
+Features:
+a) City
+b) Current temperature
+c) Weather description (sunny, cloudy...)
+d) Humidity
+e) Change cities button
+f) temperature of the next 5 days
+
+Steps:
+1) Ask user for a city
+2) Send request to weather API
+3) Get weather data
+4) Display info
+5) Ask to view a new city and repeat
+
+API: OpenWeatherMap
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
